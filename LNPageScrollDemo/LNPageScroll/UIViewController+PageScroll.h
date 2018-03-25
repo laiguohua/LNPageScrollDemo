@@ -1,5 +1,5 @@
 //
-//  LNTestViewController.m
+//  UIViewController+PageScroll.m
 //  LNPageScrollDemo
 //
 //  Created by Mr.lai on 2018/3/25.
