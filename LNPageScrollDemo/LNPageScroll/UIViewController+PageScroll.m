@@ -1,9 +1,9 @@
 //
-//  UIViewController+PageScroll.m
-//  LanceTool
+//  LNTestViewController.m
+//  LNPageScrollDemo
 //
-//  Created by lgh on 2018/3/8.
-//  Copyright © 2018年 lgh. All rights reserved.
+//  Created by Mr.lai on 2018/3/25.
+//  Copyright © 2018年 Mr.lai. All rights reserved.
 //
 
 #import "UIViewController+PageScroll.h"

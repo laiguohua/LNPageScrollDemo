@@ -15,7 +15,6 @@
 
 @property (nonatomic,strong)UITableView *tableView;
 
-@property (nonatomic,assign)NSInteger anum;
 
 @end
 
@@ -37,11 +36,6 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    
-    if(self.anum == 0){
-        self.anum = arc4random() % 100 + 10;
-        [self.tableView reloadData];
-    }
     
     NSLog(@"=======page %ld %s",self.pageIndex,__func__);
 }
@@ -65,7 +59,7 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     cell.textLabel.text = [NSString stringWithFormat:@"page %ld",self.pageIndex];
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@%ld",@"this row ",self.anum + indexPath.row];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@%ld",@"this is row ", indexPath.row];
     return cell;
 }
 

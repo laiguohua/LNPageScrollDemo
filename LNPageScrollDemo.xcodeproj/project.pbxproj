@@ -97,11 +97,11 @@
 			isa = PBXGroup;
 			children = (
 				14CC53B220679243009A86EA /* UIViewController+PageScroll.m */,
-				14CC53B320679243009A86EA /* LNPageTitleView.h */,
-				14CC53B420679243009A86EA /* LNPageCotainerViewController.m */,
 				14CC53B520679243009A86EA /* UIViewController+PageScroll.h */,
-				14CC53B620679243009A86EA /* LNPageTitleView.m */,
+				14CC53B420679243009A86EA /* LNPageCotainerViewController.m */,
 				14CC53B720679243009A86EA /* LNPageCotainerViewController.h */,
+				14CC53B320679243009A86EA /* LNPageTitleView.h */,
+				14CC53B620679243009A86EA /* LNPageTitleView.m */,
 			);
 			path = LNPageScroll;
 			sourceTree = "<group>";
