@@ -1,5 +1,5 @@
 //
-//  LNPageCotainerViewController.m
+//  LNPageCotainerViewController.h
 //  LNPageScrollDemo
 //
 //  Created by Mr.lai on 2018/3/25.
