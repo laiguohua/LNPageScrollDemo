@@ -13,6 +13,11 @@
 		14CC53A5206790DB009A86EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CC53A4206790DB009A86EA /* Assets.xcassets */; };
 		14CC53A8206790DB009A86EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CC53A6206790DB009A86EA /* LaunchScreen.storyboard */; };
 		14CC53AB206790DC009A86EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC53AA206790DC009A86EA /* main.m */; };
+		14CC53B820679243009A86EA /* UIViewController+PageScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC53B220679243009A86EA /* UIViewController+PageScroll.m */; };
+		14CC53B920679243009A86EA /* LNPageCotainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC53B420679243009A86EA /* LNPageCotainerViewController.m */; };
+		14CC53BA20679243009A86EA /* LNPageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC53B620679243009A86EA /* LNPageTitleView.m */; };
+		14CC53BD2067931D009A86EA /* LNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC53BC2067931D009A86EA /* LNTestViewController.m */; };
+		ABCD901A7BB441A9CAA14882 /* libPods-LNPageScrollDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E166D8393838B35C25BF0AE9 /* libPods-LNPageScrollDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,17 @@
 		14CC53A7206790DB009A86EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14CC53A9206790DC009A86EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CC53AA206790DC009A86EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14CC53B220679243009A86EA /* UIViewController+PageScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PageScroll.m"; sourceTree = "<group>"; };
+		14CC53B320679243009A86EA /* LNPageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPageTitleView.h; sourceTree = "<group>"; };
+		14CC53B420679243009A86EA /* LNPageCotainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPageCotainerViewController.m; sourceTree = "<group>"; };
+		14CC53B520679243009A86EA /* UIViewController+PageScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PageScroll.h"; sourceTree = "<group>"; };
+		14CC53B620679243009A86EA /* LNPageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPageTitleView.m; sourceTree = "<group>"; };
+		14CC53B720679243009A86EA /* LNPageCotainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPageCotainerViewController.h; sourceTree = "<group>"; };
+		14CC53BB2067931D009A86EA /* LNTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNTestViewController.h; sourceTree = "<group>"; };
+		14CC53BC2067931D009A86EA /* LNTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNTestViewController.m; sourceTree = "<group>"; };
+		C81BA9BADB53ADE551D63AFD /* Pods-LNPageScrollDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNPageScrollDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNPageScrollDemo/Pods-LNPageScrollDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DAF5F400A8991A2C0806B082 /* Pods-LNPageScrollDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNPageScrollDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNPageScrollDemo/Pods-LNPageScrollDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E166D8393838B35C25BF0AE9 /* libPods-LNPageScrollDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNPageScrollDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCD901A7BB441A9CAA14882 /* libPods-LNPageScrollDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				14CC539A206790DB009A86EA /* LNPageScrollDemo */,
 				14CC5399206790DB009A86EA /* Products */,
+				CC7039EFD8F48AC08F371B68 /* Pods */,
+				B601832ED4B1CEF3FDD0659C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +77,7 @@
 		14CC539A206790DB009A86EA /* LNPageScrollDemo */ = {
 			isa = PBXGroup;
 			children = (
+				14CC53B120679243009A86EA /* LNPageScroll */,
 				14CC539B206790DB009A86EA /* AppDelegate.h */,
 				14CC539C206790DB009A86EA /* AppDelegate.m */,
 				14CC539E206790DB009A86EA /* ViewController.h */,
@@ -67,8 +87,40 @@
 				14CC53A6206790DB009A86EA /* LaunchScreen.storyboard */,
 				14CC53A9206790DC009A86EA /* Info.plist */,
 				14CC53AA206790DC009A86EA /* main.m */,
+				14CC53BB2067931D009A86EA /* LNTestViewController.h */,
+				14CC53BC2067931D009A86EA /* LNTestViewController.m */,
 			);
 			path = LNPageScrollDemo;
+			sourceTree = "<group>";
+		};
+		14CC53B120679243009A86EA /* LNPageScroll */ = {
+			isa = PBXGroup;
+			children = (
+				14CC53B220679243009A86EA /* UIViewController+PageScroll.m */,
+				14CC53B320679243009A86EA /* LNPageTitleView.h */,
+				14CC53B420679243009A86EA /* LNPageCotainerViewController.m */,
+				14CC53B520679243009A86EA /* UIViewController+PageScroll.h */,
+				14CC53B620679243009A86EA /* LNPageTitleView.m */,
+				14CC53B720679243009A86EA /* LNPageCotainerViewController.h */,
+			);
+			path = LNPageScroll;
+			sourceTree = "<group>";
+		};
+		B601832ED4B1CEF3FDD0659C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E166D8393838B35C25BF0AE9 /* libPods-LNPageScrollDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC7039EFD8F48AC08F371B68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C81BA9BADB53ADE551D63AFD /* Pods-LNPageScrollDemo.debug.xcconfig */,
+				DAF5F400A8991A2C0806B082 /* Pods-LNPageScrollDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14CC53AE206790DC009A86EA /* Build configuration list for PBXNativeTarget "LNPageScrollDemo" */;
 			buildPhases = (
+				00A389B9FB28AD1D2A6D013F /* [CP] Check Pods Manifest.lock */,
 				14CC5394206790DB009A86EA /* Sources */,
 				14CC5395206790DB009A86EA /* Frameworks */,
 				14CC5396206790DB009A86EA /* Resources */,
+				98419F6DFE0636F3D842ABA3 /* [CP] Embed Pods Frameworks */,
+				D370676EDC76BA9A9E74B9ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,12 +192,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00A389B9FB28AD1D2A6D013F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LNPageScrollDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98419F6DFE0636F3D842ABA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNPageScrollDemo/Pods-LNPageScrollDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D370676EDC76BA9A9E74B9ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNPageScrollDemo/Pods-LNPageScrollDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14CC5394206790DB009A86EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CC53BA20679243009A86EA /* LNPageTitleView.m in Sources */,
+				14CC53BD2067931D009A86EA /* LNTestViewController.m in Sources */,
+				14CC53B820679243009A86EA /* UIViewController+PageScroll.m in Sources */,
 				14CC53A0206790DB009A86EA /* ViewController.m in Sources */,
+				14CC53B920679243009A86EA /* LNPageCotainerViewController.m in Sources */,
 				14CC53AB206790DC009A86EA /* main.m in Sources */,
 				14CC539D206790DB009A86EA /* AppDelegate.m in Sources */,
 			);
@@ -218,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,10 +386,12 @@
 		};
 		14CC53AF206790DC009A86EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81BA9BADB53ADE551D63AFD /* Pods-LNPageScrollDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LNPageScrollDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LGH.LNPageScrollDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,10 +401,12 @@
 		};
 		14CC53B0206790DC009A86EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF5F400A8991A2C0806B082 /* Pods-LNPageScrollDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LNPageScrollDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LGH.LNPageScrollDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
